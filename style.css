@@ -1,0 +1,1181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainsec {
+    background-image: url(./main\ img.jpg);
+}
+
+.mainimg img {
+    position: absolute;
+    height: 570px;
+    width: 1230px;
+
+}
+.header {
+    position: fixed;
+}
+.head ul{
+    position: sticky;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    
+}
+.head ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+.mainlogo img{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.headerbutton{
+    border-radius: 20px;
+    position: absolute;
+    background: transparent;
+    border: 1px solid white;
+    color: whitesmoke;
+    width: 140px;
+    height: 40px;
+    margin-left: 1070px;
+    top: 25px;
+    font-size: 15px;
+}
+.headerbutton:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 1s;
+
+}
+.slogan{
+    width: 300px;
+    height: 40px;
+    background: linear-gradient(to right, rgba(7, 0, 0, 0.265)25%, transparent);
+    border-radius: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 130px;
+    left: 160px;
+}
+.slogan p{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+.icon{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.maintext{
+    position: absolute;
+    color: #FFFFFF;
+    top: 180px;
+    left: 170px;
+    font-size: 70px;
+    font-family:sans-serif;
+    width: 600px;
+    color: white;
+    
+}
+.maintextp p{
+    position: absolute;
+    top:330px ;
+    left:170px ;
+    font-family: "Gill Sans", sans-serif;
+    font-size: larger;
+    color: grey;
+    width: 400px;
+}
+.explore {
+    border-radius: 50px;
+    border: none;  
+    font-size: 16px; 
+    width: 180px;
+    height: 50px;
+    position: relative;
+    left: 170px;
+    top: 330px;
+    background: linear-gradient(to right, rgb(1, 18, 255)0.1%, rgb(250, 3, 3) );
+}
+
+.explore p{
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    color: whitesmoke;
+}
+.explore:hover{
+    background: linear-gradient(to left, rgb(1, 18, 255)0.1%, rgb(250, 3, 3) );
+    transition: background-color 1s; 
+}
+.yt{
+   position: absolute;
+   left: 310px;
+   top: 400px;
+}
+.contact{
+    border: 0.5px solid white; 
+    border-radius: 50px;  
+    font-size: 16px; 
+    width: 180px;
+    height: 50px;
+    position: relative;
+    left: 200px;
+    top: 330px;
+    background: transparent;
+}
+.contact p{
+    position: absolute;
+    left:30px;
+    bottom: 15px;
+    color: black;
+}
+.call {
+    position: absolute;
+    top: 400px;
+    left: 510px;
+    color: black;
+}
+.contact:hover{
+    background-color: rgba(0, 255, 255, 0.297);
+    transition: background-color 1s;
+}
+.custom-shape-divider-bottom-1717232615 {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    
+   
+}
+
+.bulb{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 100px;
+}
+.bulb h4{
+    position: absolute;
+    left: 80px;
+    bottom: 50px;
+    width: 200px;
+}
+.bulb p{
+    position: absolute;
+    width: 200px;
+    left: 80px;
+    bottom: 5px; 
+}
+.bag{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 450px;
+}
+.bag h4{
+    position: absolute; 
+    bottom:50px;
+    left: 90px;
+    width: 200px;
+}
+.bag p{
+    position: absolute;
+    width: 200px;
+    left: 90px;
+    bottom: 5px
+}
+.spacecraft{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 850px;
+}
+.spacecraft h4{
+    position: absolute;
+    bottom:60px;
+    left: 90px;  
+    width: 200px;
+}
+.spacecraft p{
+    position: absolute;
+    width: 200px;
+    left: 90px;
+    bottom: 10px;
+
+}
+.man1 img{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    top: 800px;
+    left: 110px;
+    z-index: 1;
+}
+.man2 img{
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    top: 850px;
+    left: 270px;
+    z-index: 2;
+}
+.creativeapproch{
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 650px;
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(to right, rgba(183, 208, 238, 0.852)5%, transparent);
+    border-radius: 20px;
+    color: #FFFFFF;
+    position: absolute;
+   
+}
+.creativeapproch h4{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+    color: rgb(102, 102, 244);
+    font-size: 15px;
+}
+.creativeapproch .icon{
+    position: absolute;
+    color: rgba(87, 87, 243, 0.511);
+    top: -5px;
+    left: -5px;
+
+}
+
+.content {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: sans-serif;
+    top: 850px;
+    left: 650px;
+    width: 500px;
+}
+.paragraph{
+    position: absolute;
+    top: 950px;
+    left: 650px;
+    width: 400px;
+}
+.ratio1 {
+    width: 300px;
+    height: 30px;
+    background: linear-gradient(to right, rgb(244, 42, 42)50%, transparent);
+    border-radius: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 1050px;
+    left: 650px;
+}
+.ratio1 h5{
+    position: absolute;
+    left: 15px;
+    top:8px
+}
+.ratio1 p{
+    position: absolute;
+    left: 260px;
+    top: 5px;
+    color: rgb(233, 10, 10)
+}
+.ratio2{
+    width: 250px;
+    height: 30px;
+    background: linear-gradient(to right, rgb(71, 68, 247)50%, transparent);
+    border-radius: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 1100px;
+    left: 650px;
+
+}
+.ratio2 h5{
+    position: absolute;
+    left: 15px;
+    top:8px
+}
+.ratio2 p{
+    position: absolute;
+    left: 200px;
+    top: 5px;
+    color: rgb(0, 8, 234)
+}
+.walmart img{
+    position: absolute;
+    top: 1250px;
+    left: 160px;
+}
+.netflix img{
+    position: absolute;
+    top: 1250px;
+    left: 380px;
+}
+.invision img{
+    position: absolute;
+    top: 1250px;
+    left: 600px;
+}
+.yahoo img{
+    position: absolute;
+    top: 1250px;
+    left: 800px;
+}
+.amazon img{
+    position: absolute;
+    top: 1250px;
+    left: 1000px;
+}
+.textp p{
+    position: absolute;
+    top: 1400px;
+    left: 200px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px; 
+}
+
+    
+.descriptionp p{
+    position: absolute;
+    top: 1410px;
+    left: 600px;
+    width: 300px;
+    color: grey;
+   
+}
+.leftarrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 1410px;
+    left: 1000px;
+    border: none;
+}
+.leftarrow:hover{
+    color: grey;
+    transition: background-color 0.5s;
+}
+
+.rightarrow{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 1410px;
+    left: 1060px;
+    border: none;
+
+}
+.rightarrow:hover{
+    color: grey;
+    transition: background-color 0.5s;
+
+}
+.part3{
+    background-color: #b1a6a63d;
+    width: 100%;
+    height: 700px;
+    margin-top: 1200px;
+
+}
+.img1{
+    position: absolute;
+    width: 273px;
+    height: 380px;
+    top: 1550px;
+    left: 200px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.img1 img{
+    height: 200px;
+}
+
+.img1 h3{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 25px;
+
+}
+.img1 p{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 200px;
+    
+}
+.img1 h4{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 70px;
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+.img2{
+    position: absolute;
+    width: 273px;
+    height: 380px;
+    top: 1550px;
+    left: 520px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.img2 img{
+    height: 200px;
+
+}
+.img2 h3{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 60px;
+
+}
+.img2 p{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 200px;
+}
+.img2 h4{
+    position: absolute;
+    font-size: 15px;
+    width: 155px;
+    font-weight: 100;
+    margin-top: 130px;
+    margin-left: 70px;
+    
+}
+.img3{
+    position: absolute;
+    width: 273px;
+    height: 380px;
+    top: 1550px;
+    left: 840px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.img3 img{
+    height: 200px;
+
+}
+.img3 h3{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 60px;
+
+}
+.img3 p{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 200px;
+    width: 200px;
+}
+.img3 h4{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 70px;
+    font-size: 15px;
+    width: 155px;  
+}
+.part4text{
+    position: absolute;
+    top: 2050px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 350px;
+    width: 600px;
+    color: whitesmoke
+}
+.gridcontainer{
+    display: grid;
+    background-color: rgba(1, 1, 97, 0.966);
+    height: 700px;
+    width: 100%;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    padding: 250px;
+}
+.item{
+    width: 150px;
+    height: 150px;
+}
+.item:hover{
+    color: red;
+    transition: 1s;
+}
+.item.item1{
+    border-right: 1px solid black;
+}
+.item1 h4{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.item1 .mictwo{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item2{
+    border-right: 1px solid black;
+}
+.item2 h4{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.item2 .cash{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.item.item3{
+    border-right: 1px solid black;
+}
+.item3 h4{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.item3 .insect{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item4{
+    border-right: 1px solid black;
+}
+.item4 h4{
+    color: white;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.item4 .case{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item5{
+    border-right: 1px solid black;
+}
+.item5 h4{
+    color: white;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.item5 .food{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item6 h4{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.item6 .travel{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item7{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.item7 h4{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.item7 .dairy{
+    color: white;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item8{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.item8 h4{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.item8 .jewel{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item9{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.item9 h4{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.item9 .energy{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item10{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.item10 h4{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.item10 .farming{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item11{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+.item11 h4{
+    color: white;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.item11 .industry{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.item.item12{
+    border-top: 1px solid black;
+}
+.item12 h4{
+    color: white;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.item12 .event{
+    color: white;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 50px;
+}
+.sec4img{
+    background-color: rgba(2, 22, 65, 0.985);
+    width: 100%;
+    height: 70px;
+}
+.sec4img img{
+    position: absolute;
+    height: 70px;
+    left: 300px;
+}
+
+.sec4img p{
+    position: absolute;
+    left: 410px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: whitesmoke;
+}   
+.sec4footer{
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color:#FFFFFF;
+}
+.sec5-body{
+        background-color: #7775753d;
+        width: 100%;
+        height: 1550px;
+
+}
+.sec5head h2{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.sec5list ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.sec5list ul li{
+    list-style: none;
+    color: grey;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+.sec5list ul li:hover{
+    color: black;
+    text-decoration: underline;
+    transition: 1s;
+}
+.sec5-pic1 img{
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.sec5-pic2 img{
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.sec5-pic3 img{
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    margin-left: 800px;
+    margin-top: 40px; 
+}
+.sec5-pic4 img{
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 400px; 
+}
+.sec5-pic5 img{
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    margin-left: 450px;
+    margin-top: 400px; 
+}
+.sec5-pic6 img{
+    position: absolute;
+    width: 320px;
+    height: 350px;
+    margin-left: 800px;
+    margin-top: 400px; 
+}
+.sec5text p{
+    position:absolute;
+    margin-top: 800px;
+    margin-left: 400px;
+    font-size: 40px;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .map img{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 200px;
+    width: 900px;
+    color: white;
+
+} */
+.sec5man img{
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 350px;
+    width: 200px;
+    height: 200px;
+}
+.monday img{
+    position: absolute;
+    height: 250px;
+    width: 150px;
+    margin-top: 850px;
+    margin-left: 600px;
+
+}
+.monday p{
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+
+}
+.monday h4{
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+}
+.mondaybox{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 150px;
+    margin-top: 1240px;
+    margin-left: 120px;
+}
+.mondaybox img{
+    position: absolute;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.mondaybox h4{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 30px;
+    color: grey;
+    font-weight: 100;
+}
+.mondaybox p{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 170px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.dropbox{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 150px;
+    margin-top: 1240px;
+    margin-left: 460px;
+}
+.dropbox img{
+    position: absolute;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.dropbox h4{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 30px;
+    color: grey;
+    font-weight: 100;
+}
+.dropbox p{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 160px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.slackbox{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 150px;
+    margin-top: 1240px;
+    margin-left: 800px;
+}
+.slackbox img{
+    position: absolute;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.slackbox h4{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 30px;
+    color: grey;
+    font-weight: 100;
+}
+.slackbox p{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 140px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lastimg{
+    background-image: url(./last\ image.webp);
+}
+.lastimg img{
+        position: absolute;
+        height: 650px;
+        width: 1220px;
+}
+.waves{
+    position: absolute;
+    height: 100px;
+    width: 1220px;
+    margin-top: 500px;
+  
+}
+.lastslogan{
+    width: 300px;
+    height: 40px;
+    background: linear-gradient(to right, rgba(34, 33, 33, 0.495)75%, transparent);
+    border-radius: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 480px;
+}
+.lastslogan p{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 500px;
+    font-size: 15px;
+}
+.lasticon{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 12px;
+}
+.lasttext p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.984);
+    margin-left: 380px;
+    margin-top: 200px;
+    font-size: 70px;
+    width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.project{
+    border-radius: 50px;
+    border: none;  
+    font-size: 16px; 
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 550px;
+    top: 410px;
+    background: linear-gradient(to right, rgb(1, 18, 255)0.1%, rgb(250, 3, 3) );
+}
+.project p{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+    color: white;
+}
+.project:hover{
+    background: linear-gradient(to left, rgb(1, 18, 255)0.1%, rgb(230, 7, 7) );
+    transition: background-color 1s; 
+}
+.projectarrow{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -8px;
+    color: white;
+
+}
+/* footer */
+.footerlogo img{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+    height: 50px;
+    width: 90px;
+}
+.footerlogo p{
+    position: absolute;
+    margin-top: px; 
+     margin-left: 150px;
+    color: grey;
+    width: 250px;
+}
+.ficons ul{
+    display: flex;
+    margin-top: 800px;
+}
+.ficons ul li{
+    margin-top: 50px;
+    margin-left: 100px;
+    list-style: none;
+    align-items: flex-start;
+} 
+.ficons ul li .f{
+    margin-left: 50px;
+}
+.ficons ul li .f:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.ficons ul li .d{
+    margin-left: -70px;
+}
+.ficons ul li .d:hover{
+    color: red;
+    transition: 0.5s;
+}
+.ficons ul li .t{
+    margin-left: -120px;
+}
+.ficons ul li .t:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.ficons ul li .i{
+    margin-left: -170px;
+}
+.ficons ul li .i:hover{
+    color: red;
+    transition: 0.5s;
+}
+.footer2 h4{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -115px;
+    font-size: 20px;
+}
+.footer2 ul {
+    position: absolute;
+    margin-left: 450px;
+    list-style: none;
+    margin-top: -80px;
+    
+}
+.footer2 ul li{
+    color: grey;
+    height: 25px;
+}
+.footer2 ul li:hover{
+    color: black;
+    transition: 0.5s;
+    
+}
+.footer3 h4{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -115px;
+    font-size: 20px;
+}
+.footer3 ul {
+    position: absolute;
+    margin-left: 620px;
+    list-style: none;
+    margin-top: -80px;
+    
+}
+.footer3 ul li{
+    color: grey;
+    height: 25px;
+}
+.footer3 ul li:hover{
+    color: black;
+    transition: 0.5s;
+    
+}
+.footer4 h4{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -115px;
+    font-size: 20px;
+}
+.footer4 ul {
+    position: absolute;
+    margin-left: 750px;
+    list-style: none;
+    margin-top: -80px;
+}
+.footer4 ul li{
+    color: grey;
+    height: 25px;
+}  
+.footer4 ul li:hover{
+    color: black;
+    transition: 0.5s;
+}  
+.footer5 h4{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -120px;
+    font-size: 20px;
+}   
+
+.footer5 p{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 950px;
+    color: grey;
+    width: 200px;
+}
+.emailb input{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -40px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 200px;
+    height: 50px;
+    background: transparent;
+}
+.poweredby p{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 80px;
+    color: grey;
+    border-top: 1px solid black;
+    width: 1000px;
+    height: 30px;
+    
+}
+.poweredby button{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: 80px;
+    border: none;
+    background: transparent;
+}
+.policy ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.policy ul li{
+    list-style: none;
+    margin-top: 80px;
+    margin-right: 70px;
+    color: grey;
+
+}
+
